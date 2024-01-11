@@ -1,0 +1,156 @@
+
+main{
+    padding-left: 32px;
+    font-family: "Inter" ;
+}
+
+
+.logo{
+    width: 170px;
+    height: 49px;
+    padding-left: 32px;
+    padding-top: 32px;
+
+}
+
+.texto1{
+    height: 32px;
+    max-width: 100%;
+    padding-top: 32px;
+}
+
+
+.texto2{
+    width: 603px;
+    height: 32px;
+    font-size: 16px;
+    padding-bottom: 16px;
+
+}
+
+
+.underline{
+    padding-top: 15px;
+    text-decoration: underline;
+}
+
+.numerico{
+    padding-bottom: 16px;
+    padding-left: 32px;
+    width: 469px;
+    height: 32px;
+
+}
+
+
+.bolinhas{
+    padding-left: 32px;
+    width: 469px;
+    height: 32px;
+    padding-bottom: 16px;
+}
+
+
+.calculadora2{
+    height: 100%;
+    width: 603px;
+    max-width: 100%;
+    padding-top: 32px;
+    padding-bottom: 10px;
+    font-size: 24px;
+}
+
+
+.calcular{
+    background-color: #ED145B;
+    color: white;
+    width: 140px;
+    height: 38px;
+    border-radius: 5px;
+    border: none;
+    
+}
+
+
+#peso{
+    width: 140px;
+    height: 38px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+
+#altura{
+    width: 140px;
+    height: 38px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+
+.caixa{
+    width: 290px;
+    height: 36px;
+    margin: 12px;
+    display: flex;
+    justify-content: center;
+    border-radius: 4px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+
+.lilas { background-color: purple;}
+.verde { background-color: rgb(9, 255, 0)}
+.amarela{ background-color: yellow}
+.rosa { background-color: rgb(255, 0, 106);}
+
+
+.imc{
+    padding-left: 748px;
+    height: 0px;;
+}
+
+
+.apagada{
+    opacity: 0.5;
+}
+
+
+#center{
+    margin-top: 10px;
+}
+
+
+#caixaResultado{
+    width: 290px;
+    height: 36px;
+    margin: 12px;
+    display: flex;
+    justify-content: center;
+    border-radius: 4px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+footer{
+    width: 100%;
+    background-color: #ED145B;
+    padding-top: 9px;
+    padding-bottom: 15px;
+    text-align: center;
+    color: white;
+    position: absolute;
+    
+
+}
+#formImc{
+    padding-bottom: 72px;
+}
+
+@media screen and (max-width: 600px) {
+    body{
+        text-align: center;
+        flex-direction: column;
+
+    }
